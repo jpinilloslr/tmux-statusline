@@ -2,7 +2,13 @@
 
 Personalized Tmux statusline based on [wfxr/tmux-power](https://github.com/wfxr/tmux-power/tree/master).
 
-Required extensions:
+## Installation
+
+```
+set -g @plugin 'jpinilloslr/tmux-statusline'
+```
+
+## Required extensions
 
 ```
 set -g @plugin 'tmux-plugins/tmux-battery'
