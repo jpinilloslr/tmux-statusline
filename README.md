@@ -13,5 +13,6 @@ set -g @plugin 'jpinilloslr/tmux-statusline'
 ```
 set -g @plugin 'tmux-plugins/tmux-battery'
 set -g @plugin 'tmux-plugins/tmux-cpu'
+set -g @plugin 'tmux-plugins/tmux-net-speed'
 set -g @plugin 'olimorris/tmux-pomodoro-plus'
 ```
