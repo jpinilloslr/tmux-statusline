@@ -26,8 +26,7 @@ set_opt status-attr none
 set_opt status-left-bg "$G1"
 set_opt status-left-fg "$G5"
 set_opt status-left-length 150
-user=$(whoami)
-LS="#[fg=$G1,bg=$AC,bold] #{?client_prefix,,} $user@#h #[fg=$AC,bg=$G2,nobold]$rarrow#[fg=$AC,bg=$G2]  #S "
+LS="#[fg=$G1,bg=$AC,bold] #{?client_prefix,,} #[fg=$AC,bg=$G2,nobold]$rarrow#[fg=$AC,bg=$G2]  #S "
 LS="$LS#[fg=$G2,bg=$BG]$rarrow"
 set_opt status-left "$LS"
 

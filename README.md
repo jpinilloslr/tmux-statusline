@@ -16,3 +16,5 @@ set -g @plugin 'tmux-plugins/tmux-cpu'
 set -g @plugin 'tmux-plugins/tmux-net-speed'
 set -g @plugin 'olimorris/tmux-pomodoro-plus'
 ```
+
+![screenshot](./images/screenshot.png)
