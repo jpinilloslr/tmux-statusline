@@ -7,6 +7,7 @@ rarrow=''
 larrow=''
 AC='#777777'
 G1=#262626 #235
+G01=#303030 #236
 G2=#3a3a3a #237
 G3=#444444 #238
 G4=#626262 #241
@@ -35,7 +36,7 @@ set_opt status-right-bg "$BG"
 set_opt status-right-fg "$G5"
 set_opt status-right-length 150
 RS="#[fg=$G2]$larrow#[fg=$AC,bg=$G2]  #{cpu_percentage}  #{ram_percentage} 󰁹 #{battery_percentage} #[fg=$AC,bg=$G2]$larrow#[fg=$G1,bg=$AC] #{pomodoro_status}  %H:%M "
-RS="#[fg=$G05,bg=$BG]$larrow#[fg=$AC,bg=$G05] #{net_speed} $RS"
+RS="#[fg=$G01,bg=$BG]$larrow#[fg=$AC,bg=$G01] #{net_speed} $RS"
 set_opt status-right "$RS"
 
 # Copy mode
