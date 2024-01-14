@@ -34,7 +34,7 @@ set_opt status-left "$LS"
 set_opt status-right-bg "$BG"
 set_opt status-right-fg "$G5"
 set_opt status-right-length 150
-RS="#[fg=$G2]$larrow#[fg=$AC,bg=$G2]  #{cpu_percentage}  #{ram_percentage} 󰁹 #{battery_percentage} #[fg=$AC,bg=$G2]$larrow#[fg=$G1,bg=$AC]  %H:%M "
+RS="#[fg=$G2]$larrow#[fg=$AC,bg=$G2]  #{cpu_percentage}  #{ram_percentage} 󰁹 #{battery_percentage} #[fg=$AC,bg=$G2]$larrow#[fg=$G1,bg=$AC] #{pomodoro_status}  %H:%M "
 set_opt status-right "$RS"
 
 # Copy mode
