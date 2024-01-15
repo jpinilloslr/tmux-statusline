@@ -5,7 +5,7 @@ set_opt() {
 # Config params
 rarrow=''
 larrow=''
-AC='#777777'
+AC='#888888'
 G1=#262626 #235
 G01=#303030 #236
 G2=#3a3a3a #237
